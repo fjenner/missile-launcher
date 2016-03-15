@@ -1,0 +1,5 @@
+# For the hidapi-libusb implementation
+ATTR{idVendor}=="0a81", ATTR{idProduct}=="0701", MODE="0660", GROUP="plugdev"
+
+# For the hidapi-hidraw implementation
+KERNEL=="hidraw*", ATTRS{idVendor}=="0a81", ATTRS{idProduct}=="0701", MODE="0660", GROUP="plugdev"

@@ -53,8 +53,7 @@ const char *argp_program_bug_address = "<" BUG_EMAIL_ADDRESS ">";
  * Documentation string displayed in help output
  */
 static char doc[] =
-    "USB missile launcher application for Dream Cheeky's Rocket Baby device. "
-    "If no options are provided, fires one missle and exits.";
+    "USB missile launcher application for Dream Cheeky's Rocket Baby device. ";
 
 /**
  * Command-line options supported by this application
